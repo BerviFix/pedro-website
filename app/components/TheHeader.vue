@@ -6,6 +6,7 @@ const navLinks = [
   { label: 'Funzionalità', href: '#features' },
   { label: 'Come Funziona', href: '#how-it-works' },
   { label: 'Supermercati', href: '#supermarkets' },
+  { label: 'Confronto', href: '#comparison' },
   { label: 'FAQ', href: '#faq' }
 ]
 

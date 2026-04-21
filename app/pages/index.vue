@@ -181,6 +181,86 @@ useSchemaOrg([
           '@type': 'Answer',
           'text': 'Crea la lista nella app. Premi "Confronta Prezzi". Vai dove costa meno.'
         }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Pedro funziona a Milano?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'Sì. Pedro copre Milano città e provincia, con i supermercati Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam presenti in zona.'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Pedro funziona a Roma?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'Sì. Pedro è attivo a Roma e in tutta la provincia, con copertura delle principali catene (Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin, Pam).'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Pedro funziona a Napoli, Torino, Bologna, Firenze?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'Sì. Pedro è attivo in 17 regioni e oltre 60 province italiane: Milano, Roma, Napoli, Torino, Bologna, Firenze, Genova, Bari, Palermo, Catania, Venezia, Verona, Padova, Brescia, Bergamo e molte altre.'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Che differenza c\'è tra Pedro e DoveConviene?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'DoveConviene mostra i volantini dei supermercati. Pedro confronta i prezzi della tua lista della spesa tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam e ti dice il supermercato più economico per la tua lista specifica.'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Come si confronta Pedro con Trovaprezzi?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'Trovaprezzi è un comparatore prezzi su prodotti in vendita online (elettronica, casa, moda). Pedro è specifico per la spesa alimentare nei supermercati fisici italiani: confronto prezzi tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam.'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Pedro mostra i volantini dei supermercati?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'No. Pedro non è un aggregatore di volantini. Confronta direttamente i prezzi dei prodotti della tua lista tra i supermercati, senza passare per il volantino.'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Pedro ha il Nutri-Score?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'Sì. Per molti prodotti Pedro mostra il Nutri-Score (A-E) per aiutarti a scegliere alternative più salutari.'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Posso condividere la lista della spesa con un familiare?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'La lista è salvata localmente sul dispositivo. La condivisione tra dispositivi non è disponibile al momento.'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Quante città sono coperte da Pedro?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'Pedro copre 17 regioni italiane e oltre 60 province, includendo i capoluoghi principali e molte città medie. La copertura viene ampliata in base alle nuove catene e punti vendita aggiunti al database.'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Pedro richiede registrazione o account?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'No. Pedro funziona senza account. Apri l\'app, crei la lista, confronti i prezzi. L\'indirizzo serve solo a trovare i supermercati vicini.'
+        }
       }
     ]
   },
@@ -351,6 +431,7 @@ useSchemaOrg([
     <SectionsFeaturesSection />
     <SectionsHowItWorksSection />
     <SectionsSupermarketsSection />
+    <SectionsComparisonSection />
     <SectionsTestimonialsSection />
     <SectionsFAQSection />
     <SectionsDownloadSection />

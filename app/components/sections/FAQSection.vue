@@ -59,6 +59,46 @@ const faqs = [
   {
     question: 'Dove conviene fare la spesa questa settimana?',
     answer: 'Pedro confronta i prezzi della tua lista tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam. Ti dice dove conviene per quello che compri tu.'
+  },
+  {
+    question: 'Pedro funziona a Milano?',
+    answer: 'Sì. Pedro copre Milano città e provincia, con i supermercati Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam presenti in zona.'
+  },
+  {
+    question: 'Pedro funziona a Roma?',
+    answer: 'Sì. Pedro è attivo a Roma e in tutta la provincia, con copertura delle principali catene (Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin, Pam).'
+  },
+  {
+    question: 'Pedro funziona a Napoli, Torino, Bologna, Firenze?',
+    answer: 'Sì. Pedro è attivo in 17 regioni e oltre 60 province italiane: Milano, Roma, Napoli, Torino, Bologna, Firenze, Genova, Bari, Palermo, Catania, Venezia, Verona, Padova, Brescia, Bergamo e molte altre.'
+  },
+  {
+    question: 'Che differenza c\'è tra Pedro e DoveConviene?',
+    answer: 'DoveConviene mostra i volantini dei supermercati. Pedro confronta i prezzi della tua lista della spesa tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam e ti dice il supermercato più economico per la tua lista specifica.'
+  },
+  {
+    question: 'Come si confronta Pedro con Trovaprezzi?',
+    answer: 'Trovaprezzi è un comparatore prezzi su prodotti in vendita online (elettronica, casa, moda). Pedro è specifico per la spesa alimentare nei supermercati fisici italiani: confronto prezzi tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam.'
+  },
+  {
+    question: 'Pedro mostra i volantini dei supermercati?',
+    answer: 'No. Pedro non è un aggregatore di volantini. Confronta direttamente i prezzi dei prodotti della tua lista tra i supermercati, senza passare per il volantino.'
+  },
+  {
+    question: 'Pedro ha il Nutri-Score?',
+    answer: 'Sì. Per molti prodotti Pedro mostra il Nutri-Score (A-E) per aiutarti a scegliere alternative più salutari.'
+  },
+  {
+    question: 'Posso condividere la lista della spesa con un familiare?',
+    answer: 'La lista è salvata localmente sul dispositivo. La condivisione tra dispositivi non è disponibile al momento.'
+  },
+  {
+    question: 'Quante città sono coperte da Pedro?',
+    answer: 'Pedro copre 17 regioni italiane e oltre 60 province, includendo i capoluoghi principali e molte città medie. La copertura viene ampliata in base alle nuove catene e punti vendita aggiunti al database.'
+  },
+  {
+    question: 'Pedro richiede registrazione o account?',
+    answer: 'No. Pedro funziona senza account. Apri l\'app, crei la lista, confronti i prezzi. L\'indirizzo serve solo a trovare i supermercati vicini.'
   }
 ]
 
