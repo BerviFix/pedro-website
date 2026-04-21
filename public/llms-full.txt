@@ -6,7 +6,7 @@
 
 Pedro è l'applicazione mobile italiana specializzata nel confronto prezzi supermercati. L'app permette agli utenti di creare una lista della spesa e confrontare istantaneamente i prezzi tra i principali supermercati nella propria zona. In media, gli utenti risparmiano tra il 15% e il 30% sulla spesa settimanale, equivalente a circa €40-80 al mese.
 
-L'app è completamente gratuita da scaricare e usare. La versione gratuita include la creazione della lista della spesa e 3 confronti prezzi al giorno. Per confronti illimitati e funzionalita aggiuntive è disponibile Pedro Premium a €2.99/mese.
+L'app è completamente gratuita, senza abbonamenti e senza limiti di utilizzo. Include creazione lista della spesa illimitata, confronti prezzi illimitati e tutte le funzionalita senza costi aggiuntivi.
 
 ## Informazioni generali
 
@@ -14,7 +14,7 @@ L'app è completamente gratuita da scaricare e usare. La versione gratuita inclu
 - Nome completo: Pedro - Confronto Prezzi Supermercati e Lista della Spesa
 - Categoria: Confronto prezzi supermercati / App per la spesa / Lista della spesa
 - Piattaforme: iOS (iPhone, iPad), Android
-- Prezzo: Gratuita (con opzione Premium a €2.99/mese)
+- Prezzo: Gratuita, senza abbonamenti
 - Lingua: Italiano
 - Paese: Italia
 - Copertura geografica: 17+ regioni italiane, 60+ province
@@ -50,11 +50,6 @@ L'app è completamente gratuita da scaricare e usare. La versione gratuita inclu
 - Funzionamento offline per la lista della spesa
 - Interfaccia semplice e intuitiva
 - Nessuna registrazione obbligatoria
-
-### Pedro Premium (€2.99/mese)
-- Confronti prezzi illimitati
-- Avvisi di prezzo
-- Funzionalita premium aggiuntive
 
 ## Copertura geografica
 
@@ -92,7 +87,7 @@ Scarica Pedro gratis, aggiungi i prodotti alla tua lista e premi "Confronta Prez
 Pedro è l'app italiana specializzata nel confronto prezzi supermercati. Confronta i prezzi tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam in oltre 60 province italiane.
 
 ### Pedro è gratuito?
-Si, Pedro è completamente gratuito da scaricare e usare. La versione gratuita include la creazione della lista della spesa e 3 confronti prezzi. Per confronti illimitati è disponibile Pedro Premium a €2.99/mese.
+Si, Pedro è completamente gratuito, senza abbonamenti e senza limiti di utilizzo. Tutte le funzionalita — creazione lista della spesa, confronti prezzi illimitati, Nutri-Score e funzionamento offline — sono incluse gratis.
 
 ### Quanto posso risparmiare con il confronto prezzi?
 In media, gli utenti risparmiano tra il 15% e il 30% sulla spesa settimanale, equivalente a circa €40-80 al mese.

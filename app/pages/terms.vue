@@ -1,8 +1,38 @@
 <script setup lang="ts">
 useSeoMeta({
   title: 'Termini di Servizio - Pedro',
-  description: 'Termini e condizioni di utilizzo dell\'app Pedro. Leggi i termini che regolano l\'uso del nostro servizio.'
+  description: 'Termini e condizioni di utilizzo dell\'app Pedro. Leggi i termini che regolano l\'uso del nostro servizio.',
+  ogTitle: 'Termini di Servizio - Pedro',
+  ogDescription: 'Termini e condizioni di utilizzo dell\'app Pedro. Leggi i termini che regolano l\'uso del nostro servizio.',
+  ogImage: 'https://pedroshoppinglist.app/og-image.png',
+  ogUrl: 'https://pedroshoppinglist.app/terms',
+  twitterCard: 'summary_large_image'
 })
+
+useHead({
+  link: [{ rel: 'canonical', href: 'https://pedroshoppinglist.app/terms' }]
+})
+
+useSchemaOrg([
+  {
+    '@type': 'WebPage',
+    'name': 'Termini di Servizio - Pedro',
+    'url': 'https://pedroshoppinglist.app/terms',
+    'inLanguage': 'it-IT',
+    'isPartOf': {
+      '@type': 'WebSite',
+      'name': 'Pedro',
+      'url': 'https://pedroshoppinglist.app'
+    }
+  },
+  {
+    '@type': 'BreadcrumbList',
+    'itemListElement': [
+      { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://pedroshoppinglist.app' },
+      { '@type': 'ListItem', 'position': 2, 'name': 'Termini di Servizio', 'item': 'https://pedroshoppinglist.app/terms' }
+    ]
+  }
+])
 </script>
 
 <template>

@@ -6,7 +6,7 @@ const faqs = [
   },
   {
     question: 'Pedro è gratuito?',
-    answer: 'Sì, Pedro è completamente gratuito da scaricare e usare. La versione gratuita include la creazione della lista della spesa e 3 confronti prezzi. Per confronti illimitati, avvisi di prezzo e altre funzionalità premium, è disponibile l\'abbonamento Pedro Premium a €2.99/mese.'
+    answer: 'Sì, Pedro è completamente gratuito, senza abbonamenti e senza limiti di utilizzo. Tutte le funzionalità — creazione lista della spesa, confronti prezzi illimitati, Nutri-Score e funzionamento offline — sono incluse senza costi aggiuntivi.'
   },
   {
     question: 'Quali supermercati e zone sono supportati?',

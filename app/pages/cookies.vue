@@ -1,8 +1,38 @@
 <script setup lang="ts">
 useSeoMeta({
   title: 'Cookie Policy - Pedro',
-  description: 'Informativa sui cookie di Pedro. Scopri quali cookie utilizziamo e come gestire le tue preferenze.'
+  description: 'Informativa sui cookie di Pedro. Scopri quali cookie utilizziamo e come gestire le tue preferenze.',
+  ogTitle: 'Cookie Policy - Pedro',
+  ogDescription: 'Informativa sui cookie di Pedro. Scopri quali cookie utilizziamo e come gestire le tue preferenze.',
+  ogImage: 'https://pedroshoppinglist.app/og-image.png',
+  ogUrl: 'https://pedroshoppinglist.app/cookies',
+  twitterCard: 'summary_large_image'
 })
+
+useHead({
+  link: [{ rel: 'canonical', href: 'https://pedroshoppinglist.app/cookies' }]
+})
+
+useSchemaOrg([
+  {
+    '@type': 'WebPage',
+    'name': 'Cookie Policy - Pedro',
+    'url': 'https://pedroshoppinglist.app/cookies',
+    'inLanguage': 'it-IT',
+    'isPartOf': {
+      '@type': 'WebSite',
+      'name': 'Pedro',
+      'url': 'https://pedroshoppinglist.app'
+    }
+  },
+  {
+    '@type': 'BreadcrumbList',
+    'itemListElement': [
+      { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://pedroshoppinglist.app' },
+      { '@type': 'ListItem', 'position': 2, 'name': 'Cookie Policy', 'item': 'https://pedroshoppinglist.app/cookies' }
+    ]
+  }
+])
 </script>
 
 <template>

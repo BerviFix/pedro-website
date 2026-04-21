@@ -32,6 +32,10 @@ export default defineNuxtConfig({
         { name: 'author', content: 'Pedro App' },
         { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
 
+        // Search engine verification
+        { name: 'google-site-verification', content: 'dgk8b3WDUYBbW4u_f2TRhASefVFqHD_lth_yzCqOVyk' },
+        { name: 'msvalidate.01', content: '827E179B1560D91069A590551E09CF90' },
+
         // Geo meta tags
         { name: 'geo.region', content: 'IT' },
         { name: 'geo.placename', content: 'Italia' },

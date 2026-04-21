@@ -7,7 +7,7 @@
 - Nome: Pedro
 - Categoria: Confronto prezzi supermercati / App per la spesa / Lista della spesa
 - Piattaforme: iOS (iPhone, iPad), Android
-- Prezzo: Gratuita (Premium disponibile a €2.99/mese)
+- Prezzo: Gratuita, senza abbonamenti
 - Lingua: Italiano
 - Paese: Italia
 - Copertura: 17+ regioni, 60+ province italiane

@@ -14,18 +14,19 @@ useSeoMeta({
 
 // Schema.org Structured Data
 useSchemaOrg([
-  // Software Application Schema
+  // Mobile / Software Application Schema (dual type for max store-rich-result coverage)
   {
-    '@type': 'SoftwareApplication',
+    '@type': ['SoftwareApplication', 'MobileApplication'],
     'name': 'Pedro - Lista della Spesa',
     'alternateName': ['Pedro App', 'Pedro Lista Spesa', 'App Lista della Spesa Pedro', 'App per la Spesa Pedro', 'Pedro Shopping List', 'Pedro App Spesa'],
     'applicationCategory': 'LifestyleApplication',
     'applicationSubCategory': 'Shopping',
-    'operatingSystem': 'iOS, Android',
+    'operatingSystem': 'iOS 15+, Android 8+',
     'offers': {
       '@type': 'Offer',
       'price': '0',
-      'priceCurrency': 'EUR'
+      'priceCurrency': 'EUR',
+      'availability': 'https://schema.org/InStock'
     },
     'aggregateRating': {
       '@type': 'AggregateRating',
@@ -34,7 +35,7 @@ useSchemaOrg([
       'bestRating': '5',
       'worstRating': '1'
     },
-    'description': 'Pedro è l\'app per la lista della spesa intelligente che confronta i prezzi tra i principali supermercati italiani come Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam. Disponibile in oltre 60 province italiane, ti permette di risparmiare fino al 30% sulla spesa settimanale.',
+    'description': 'Pedro è l\'app gratuita per la lista della spesa intelligente che confronta i prezzi tra i principali supermercati italiani (Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin, Pam). Attiva in oltre 60 province e 17 regioni italiane, permette di risparmiare fino al 30% (€40-80 al mese) sulla spesa settimanale.',
     'featureList': 'Lista della spesa intelligente, Confronto prezzi supermercati, Risparmio automatico, Nutri-Score prodotti, Funzionamento offline, App per la spesa gratis, Confronto prezzi tra supermercati italiani, Risparmio spesa settimanale',
     'screenshot': 'https://pedroshoppinglist.app/og-image.png',
     'softwareVersion': '1.0',
@@ -43,6 +44,7 @@ useSchemaOrg([
     'inLanguage': 'it',
     'availableOnDevice': ['iPhone', 'iPad', 'Android'],
     'countriesSupported': 'IT',
+    'fileSize': '25MB',
     'author': {
       '@type': 'Organization',
       'name': 'Pedro'
@@ -129,7 +131,7 @@ useSchemaOrg([
         'name': 'Pedro è gratuito?',
         'acceptedAnswer': {
           '@type': 'Answer',
-          'text': 'Sì, Pedro è completamente gratuito da scaricare e usare. La versione gratuita include la creazione della lista della spesa e 3 confronti prezzi. Per confronti illimitati è disponibile Pedro Premium a €2.99/mese.'
+          'text': 'Sì, Pedro è completamente gratuito, senza abbonamenti e senza limiti di utilizzo. Tutte le funzionalità — creazione lista della spesa, confronti prezzi illimitati, Nutri-Score e funzionamento offline — sono incluse senza costi aggiuntivi.'
         }
       },
       {
@@ -214,6 +216,131 @@ useSchemaOrg([
         'url': 'https://pedroshoppinglist.app/cookies'
       }
     ]
+  },
+  // BreadcrumbList (home)
+  {
+    '@type': 'BreadcrumbList',
+    'itemListElement': [
+      {
+        '@type': 'ListItem',
+        'position': 1,
+        'name': 'Home',
+        'item': 'https://pedroshoppinglist.app'
+      }
+    ]
+  },
+  // HowTo: Come risparmiare sulla spesa con Pedro
+  {
+    '@type': 'HowTo',
+    'name': 'Come risparmiare sulla spesa con Pedro in 3 passi',
+    'description': 'Guida passo-passo per usare Pedro e risparmiare fino al 30% sulla spesa settimanale confrontando i prezzi tra i principali supermercati italiani.',
+    'image': 'https://pedroshoppinglist.app/og-image.png',
+    'totalTime': 'PT1M',
+    'estimatedCost': {
+      '@type': 'MonetaryAmount',
+      'currency': 'EUR',
+      'value': '0'
+    },
+    'supply': [
+      { '@type': 'HowToSupply', 'name': 'Smartphone iPhone o Android' },
+      { '@type': 'HowToSupply', 'name': 'App Pedro installata (gratuita)' }
+    ],
+    'step': [
+      {
+        '@type': 'HowToStep',
+        'position': 1,
+        'name': 'Crea la tua lista',
+        'text': 'Scarica Pedro gratis e aggiungi i prodotti che devi comprare. Scegli tra i prodotti precaricati o aggiungi i tuoi personalizzati.',
+        'url': 'https://pedroshoppinglist.app/#how-it-works'
+      },
+      {
+        '@type': 'HowToStep',
+        'position': 2,
+        'name': 'Confronta i prezzi',
+        'text': 'Con un tap, Pedro confronta i prezzi della tua lista tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam nella tua zona.',
+        'url': 'https://pedroshoppinglist.app/#how-it-works'
+      },
+      {
+        '@type': 'HowToStep',
+        'position': 3,
+        'name': 'Scegli e risparmia',
+        'text': 'Scopri quale supermercato è più conveniente per la tua lista e quanto puoi risparmiare. Vai a fare la spesa informato!',
+        'url': 'https://pedroshoppinglist.app/#how-it-works'
+      }
+    ]
+  },
+  // ItemList: supermercati supportati
+  {
+    '@type': 'ItemList',
+    'name': 'Supermercati supportati da Pedro per il confronto prezzi',
+    'description': 'Catene di supermercati italiane disponibili nel confronto prezzi di Pedro.',
+    'numberOfItems': 7,
+    'itemListOrder': 'https://schema.org/ItemListUnordered',
+    'itemListElement': [
+      { '@type': 'ListItem', 'position': 1, 'item': { '@type': 'Organization', 'name': 'Esselunga', 'url': 'https://www.esselunga.it' } },
+      { '@type': 'ListItem', 'position': 2, 'item': { '@type': 'Organization', 'name': 'Conad', 'url': 'https://www.conad.it' } },
+      { '@type': 'ListItem', 'position': 3, 'item': { '@type': 'Organization', 'name': 'Coop', 'url': 'https://www.coop.it' } },
+      { '@type': 'ListItem', 'position': 4, 'item': { '@type': 'Organization', 'name': 'Carrefour', 'url': 'https://www.carrefour.it' } },
+      { '@type': 'ListItem', 'position': 5, 'item': { '@type': 'Organization', 'name': 'Lidl', 'url': 'https://www.lidl.it' } },
+      { '@type': 'ListItem', 'position': 6, 'item': { '@type': 'Organization', 'name': 'Eurospin', 'url': 'https://www.eurospin.it' } },
+      { '@type': 'ListItem', 'position': 7, 'item': { '@type': 'Organization', 'name': 'Pam', 'url': 'https://www.pampanorama.it' } }
+    ]
+  },
+  // ItemList: feature principali
+  {
+    '@type': 'ItemList',
+    'name': 'Funzionalità principali di Pedro',
+    'description': 'Elenco delle funzionalità chiave dell\'app Pedro per il confronto prezzi supermercati.',
+    'numberOfItems': 6,
+    'itemListElement': [
+      { '@type': 'ListItem', 'position': 1, 'name': 'Confronta i Prezzi', 'description': 'Confronto istantaneo dei prezzi della tua lista tra i principali supermercati nella tua zona.' },
+      { '@type': 'ListItem', 'position': 2, 'name': 'Lista Intelligente', 'description': 'Crea e gestisci la tua lista della spesa con prodotti precaricati e personalizzati.' },
+      { '@type': 'ListItem', 'position': 3, 'name': 'Supermercati Vicini', 'description': 'Trova automaticamente i supermercati più vicini a te.' },
+      { '@type': 'ListItem', 'position': 4, 'name': 'Risparmio Garantito', 'description': 'Visualizza chiaramente quanto risparmi scegliendo il supermercato più conveniente.' },
+      { '@type': 'ListItem', 'position': 5, 'name': 'Funziona Offline', 'description': 'Lista sempre disponibile anche senza connessione internet.' },
+      { '@type': 'ListItem', 'position': 6, 'name': 'Privacy First', 'description': 'Usiamo solo l\'indirizzo per trovare supermercati vicini. Nessun tracciamento.' }
+    ]
+  },
+  // Reviews (testimonianze utenti)
+  {
+    '@type': 'Review',
+    'itemReviewed': {
+      '@type': 'SoftwareApplication',
+      'name': 'Pedro - Lista della Spesa'
+    },
+    'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5' },
+    'author': { '@type': 'Person', 'name': 'Maria R.' },
+    'reviewBody': 'Finalmente un\'app che mi fa risparmiare davvero! Ogni settimana risparmio almeno 10-15 euro sulla spesa. Semplicissima da usare.'
+  },
+  {
+    '@type': 'Review',
+    'itemReviewed': {
+      '@type': 'SoftwareApplication',
+      'name': 'Pedro - Lista della Spesa'
+    },
+    'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5' },
+    'author': { '@type': 'Person', 'name': 'Giuseppe L.' },
+    'reviewBody': 'La uso ogni volta che vado a fare la spesa. È fantastico vedere subito quale supermercato conviene di più per quello che devo comprare.'
+  },
+  {
+    '@type': 'Review',
+    'itemReviewed': {
+      '@type': 'SoftwareApplication',
+      'name': 'Pedro - Lista della Spesa'
+    },
+    'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5' },
+    'author': { '@type': 'Person', 'name': 'Francesca M.' },
+    'reviewBody': 'Con Pedro ho iniziato a pianificare meglio la spesa. Non solo risparmio soldi, ma anche tempo perché vado sempre nel posto giusto.'
+  },
+  {
+    '@type': 'Review',
+    'itemReviewed': {
+      '@type': 'SoftwareApplication',
+      'name': 'Pedro - Lista della Spesa'
+    },
+    'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5' },
+    'author': { '@type': 'Person', 'name': 'Andrea B.' },
+    'reviewBody': 'App eccezionale! L\'interfaccia è bellissima e funziona perfettamente. Confrontare i prezzi non è mai stato così facile.'
   }
 ])
 </script>

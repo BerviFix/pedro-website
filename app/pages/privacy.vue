@@ -1,8 +1,38 @@
 <script setup lang="ts">
 useSeoMeta({
   title: 'Privacy Policy - Pedro',
-  description: 'Informativa sulla privacy di Pedro. Scopri come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali.'
+  description: 'Informativa sulla privacy di Pedro. Scopri come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali.',
+  ogTitle: 'Privacy Policy - Pedro',
+  ogDescription: 'Informativa sulla privacy di Pedro. Scopri come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali.',
+  ogImage: 'https://pedroshoppinglist.app/og-image.png',
+  ogUrl: 'https://pedroshoppinglist.app/privacy',
+  twitterCard: 'summary_large_image'
 })
+
+useHead({
+  link: [{ rel: 'canonical', href: 'https://pedroshoppinglist.app/privacy' }]
+})
+
+useSchemaOrg([
+  {
+    '@type': 'WebPage',
+    'name': 'Privacy Policy - Pedro',
+    'url': 'https://pedroshoppinglist.app/privacy',
+    'inLanguage': 'it-IT',
+    'isPartOf': {
+      '@type': 'WebSite',
+      'name': 'Pedro',
+      'url': 'https://pedroshoppinglist.app'
+    }
+  },
+  {
+    '@type': 'BreadcrumbList',
+    'itemListElement': [
+      { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://pedroshoppinglist.app' },
+      { '@type': 'ListItem', 'position': 2, 'name': 'Privacy Policy', 'item': 'https://pedroshoppinglist.app/privacy' }
+    ]
+  }
+])
 </script>
 
 <template>
