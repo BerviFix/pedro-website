@@ -5,8 +5,7 @@ const footerLinks = {
   app: [
     { label: 'Funzionalità', href: '#features' },
     { label: 'Come Funziona', href: '#how-it-works' },
-    { label: 'Supermercati', href: '#supermarkets' },
-    { label: 'Premium', href: '#premium' }
+    { label: 'Supermercati', href: '#supermarkets' }
   ],
   support: [
     { label: 'FAQ', href: '#faq' },

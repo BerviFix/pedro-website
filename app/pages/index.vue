@@ -225,7 +225,6 @@ useSchemaOrg([
     <SectionsHowItWorksSection />
     <SectionsSupermarketsSection />
     <SectionsTestimonialsSection />
-    <SectionsPremiumSection />
     <SectionsFAQSection />
     <SectionsDownloadSection />
   </div>
