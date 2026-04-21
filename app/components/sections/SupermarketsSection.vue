@@ -20,7 +20,7 @@ const supermarkets = [
           Confronto prezzi <span class="text-gradient">supermercati</span> italiani
         </h2>
         <p class="text-lg text-gray-600">
-          Il confronto prezzi supermercati di Pedro ti permette di confrontare i prezzi tra le principali catene in Italia e scegliere dove risparmiare di piu. Attivo in oltre <strong>60 province</strong> in tutta Italia.
+          Confronta i prezzi tra le principali catene italiane. Attivo in oltre <strong>60 province</strong>.
         </p>
       </div>
 
@@ -48,7 +48,7 @@ const supermarkets = [
             <Icon name="mdi:update" class="w-7 h-7 text-pedro-600" />
           </div>
           <h3 class="font-semibold text-gray-900 mb-2">Prezzi Aggiornati</h3>
-          <p class="text-sm text-gray-600">I prezzi vengono aggiornati regolarmente per darti informazioni sempre accurate.</p>
+          <p class="text-sm text-gray-600">Aggiorniamo i prezzi regolarmente.</p>
         </div>
 
         <div class="card text-center">
@@ -56,7 +56,7 @@ const supermarkets = [
             <Icon name="mdi:check-decagram" class="w-7 h-7 text-green-600" />
           </div>
           <h3 class="font-semibold text-gray-900 mb-2">Prodotti Verificati</h3>
-          <p class="text-sm text-gray-600">Ogni prodotto nel database è verificato e categorizzato correttamente.</p>
+          <p class="text-sm text-gray-600">Ogni prodotto nel database è verificato e categorizzato.</p>
         </div>
 
         <div class="card text-center">
@@ -64,7 +64,7 @@ const supermarkets = [
             <Icon name="mdi:trending-up" class="w-7 h-7 text-accent-600" />
           </div>
           <h3 class="font-semibold text-gray-900 mb-2">In Espansione</h3>
-          <p class="text-sm text-gray-600">Stiamo aggiungendo nuovi supermercati e prodotti continuamente.</p>
+          <p class="text-sm text-gray-600">Aggiungiamo nuovi supermercati e prodotti.</p>
         </div>
       </div>
     </div>

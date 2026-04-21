@@ -3,21 +3,21 @@ const steps = [
   {
     number: '01',
     title: 'Crea la tua lista',
-    description: 'Aggiungi i prodotti che devi comprare. Scegli tra i prodotti precaricati o aggiungi i tuoi personalizzati.',
+    description: 'Aggiungi i prodotti. Scegli dai precaricati o inserisci i tuoi.',
     icon: 'mdi:plus-circle-outline',
     color: 'pedro'
   },
   {
     number: '02',
     title: 'Confronta i prezzi',
-    description: 'Con un tap, Pedro confronta i prezzi della tua lista tra i principali supermercati disponibili nella tua zona.',
+    description: 'Un tap: Pedro confronta i prezzi nei supermercati vicini.',
     icon: 'mdi:compare',
     color: 'purple'
   },
   {
     number: '03',
     title: 'Scegli e risparmia',
-    description: 'Scopri qual è il supermercato più conveniente e quanto puoi risparmiare. Vai a fare la spesa informato!',
+    description: 'Scopri il supermercato più conveniente. Vai a fare la spesa informato.',
     icon: 'mdi:cash-multiple',
     color: 'accent'
   }
@@ -42,10 +42,10 @@ const steps = [
           Come Funziona
         </span>
         <h2 class="heading-2 text-white mb-4">
-          Risparmia in <span class="text-gradient-gold">3 semplici passi</span>
+          Come funziona, in <span class="text-gradient-gold">3 passi</span>
         </h2>
         <p class="text-lg text-white/70">
-          Iniziare è facilissimo. In meno di un minuto sarai pronto a risparmiare sulla tua spesa.
+          Meno di un minuto per iniziare.
         </p>
       </div>
 

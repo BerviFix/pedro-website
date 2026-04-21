@@ -3,33 +3,33 @@ const features = [
   {
     icon: 'mdi:compare-horizontal',
     title: 'Confronta i Prezzi',
-    description: 'Confronta istantaneamente i prezzi della tua lista tra i principali supermercati nella tua zona. Scopri dove risparmi di più con un solo tap.',
+    description: 'Confronta i prezzi della tua lista tra i supermercati vicini. Vedi dove spendi meno.',
     highlight: true
   },
   {
     icon: 'mdi:format-list-checks',
     title: 'Lista Intelligente',
-    description: 'Crea e gestisci la tua lista della spesa con facilità. Tanti prodotti precaricati con possibilità di aggiungerne di personalizzati.'
+    description: 'Crea la lista della spesa. Scegli dai prodotti precaricati o aggiungi i tuoi.'
   },
   {
     icon: 'mdi:map-marker-radius',
     title: 'Supermercati Vicini',
-    description: 'Trova automaticamente i supermercati più vicini a te. Risparmia tempo e carburante scegliendo il punto vendita ottimale.'
+    description: 'Trova i supermercati vicino a te. Meno giri, meno carburante.'
   },
   {
     icon: 'mdi:piggy-bank',
     title: 'Risparmio Garantito',
-    description: 'Visualizza chiaramente quanto puoi risparmiare scegliendo il supermercato più conveniente per la tua lista.'
+    description: 'Vedi quanto spendi in meno scegliendo il supermercato giusto.'
   },
   {
     icon: 'mdi:cellphone-check',
     title: 'Funziona Offline',
-    description: 'La tua lista è sempre disponibile, anche senza connessione internet. I dati si sincronizzano automaticamente.'
+    description: 'La tua lista resta disponibile anche senza connessione. I dati si sincronizzano quando torni online.'
   },
   {
     icon: 'mdi:shield-check',
     title: 'Privacy First',
-    description: 'I tuoi dati sono al sicuro. Utilizziamo solo l\'indirizzo per trovare i supermercati vicini, nient\'altro.'
+    description: 'Usiamo l\'indirizzo solo per trovare i supermercati vicini. Nient\'altro.'
   }
 ]
 </script>
@@ -48,7 +48,7 @@ const features = [
           <span class="text-gradient">risparmiare</span>
         </h2>
         <p class="text-lg text-gray-600">
-          Pedro è progettato per rendere la tua spesa più semplice, veloce e conveniente. Ecco cosa puoi fare.
+          Ecco cosa fa Pedro.
         </p>
       </div>
 

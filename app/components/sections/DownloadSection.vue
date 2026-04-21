@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const benefits = [
-  'Completamente gratuito',
-  'Nessuna carta richiesta',
-  'Inizia a risparmiare subito'
+  'Gratis',
+  'Nessun account',
+  'Pronto in 1 minuto'
 ]
 </script>
 
@@ -26,10 +26,10 @@ const benefits = [
 
         <!-- Heading -->
         <h2 class="heading-2 text-white mb-6">
-          Pronto a risparmiare sulla spesa?
+          Scarica Pedro.
         </h2>
         <p class="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-          Scarica Pedro gratuitamente e inizia a confrontare i prezzi dei supermercati oggi stesso. Il tuo portafoglio ti ringrazierà!
+          Gratis, iPhone e Android. Confronta i prezzi dai primi minuti.
         </p>
 
         <!-- Benefits -->

@@ -36,7 +36,7 @@ const socialLinks = [
             <span class="text-xl font-bold">Pedro</span>
           </div>
           <p class="text-gray-400 text-sm leading-relaxed mb-6 max-w-xs">
-            La tua lista della spesa intelligente. Confronta i prezzi tra i supermercati e risparmia ogni settimana.
+            Lista della spesa e confronto prezzi supermercati.
           </p>
 
           <!-- App Store Buttons -->

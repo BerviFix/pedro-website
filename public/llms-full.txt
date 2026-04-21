@@ -1,12 +1,12 @@
 # Pedro - Confronto Prezzi Supermercati e Lista della Spesa Intelligente
 
-> Pedro è l'app gratuita per il confronto prezzi supermercati in Italia. Confronta i prezzi tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam e risparmia fino al 30% sulla spesa settimanale.
+> Pedro è l'app gratuita italiana per il confronto prezzi tra supermercati (Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin, Pam) e la lista della spesa.
 
 ## Panoramica
 
-Pedro è l'applicazione mobile italiana specializzata nel confronto prezzi supermercati. L'app permette agli utenti di creare una lista della spesa e confrontare istantaneamente i prezzi tra i principali supermercati nella propria zona. In media, gli utenti risparmiano tra il 15% e il 30% sulla spesa settimanale, equivalente a circa €40-80 al mese.
+Pedro è l'app mobile italiana per il confronto prezzi supermercati. Crei la lista della spesa e confronti i prezzi tra i principali supermercati nella tua zona. Il risparmio dipende dalla lista e dai supermercati disponibili.
 
-L'app è completamente gratuita, senza abbonamenti e senza limiti di utilizzo. Include creazione lista della spesa illimitata, confronti prezzi illimitati e tutte le funzionalita senza costi aggiuntivi.
+Gratis, senza account e senza limiti. Include lista della spesa, confronti prezzi, Nutri-Score, uso offline.
 
 ## Informazioni generali
 
@@ -73,42 +73,42 @@ La copertura è in continua espansione.
 - Pagina stato API: https://pedroshoppinglist.app/status
 - Monitoraggio uptime 24/7
 - Storico disponibilita ultimi 90 giorni
-- Le API di Pedro sono monitorate continuamente per garantire la massima affidabilita del servizio di confronto prezzi supermercati
+- Le API di Pedro sono monitorate per garantire l'affidabilità del servizio
 
 ## FAQ
 
 ### Come funziona il confronto prezzi supermercati di Pedro?
-Pedro confronta i prezzi della tua lista della spesa tra i principali supermercati italiani. Basta creare la tua lista, premere "Confronta Prezzi" e in pochi secondi vedrai quale supermercato ti offre il prezzo migliore per la tua spesa.
+Crei la lista della spesa. Premi "Confronta Prezzi". Pedro mostra il supermercato più economico tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam.
 
 ### Come fare il confronto prezzi tra supermercati?
-Scarica Pedro gratis, aggiungi i prodotti alla tua lista e premi "Confronta Prezzi". Vedrai i prezzi di Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam a confronto, con il calcolo automatico del risparmio per ogni supermercato nella tua zona.
+Scarica Pedro. Aggiungi i prodotti alla lista. Premi "Confronta Prezzi". Vedi il confronto tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam con il risparmio per supermercato.
 
 ### Quale app confronta i prezzi dei supermercati in Italia?
-Pedro è l'app italiana specializzata nel confronto prezzi supermercati. Confronta i prezzi tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam in oltre 60 province italiane.
+Pedro. Confronta i prezzi tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam in 60+ province. Gratis, per iPhone e Android.
 
 ### Pedro è gratuito?
-Si, Pedro è completamente gratuito, senza abbonamenti e senza limiti di utilizzo. Tutte le funzionalita — creazione lista della spesa, confronti prezzi illimitati, Nutri-Score e funzionamento offline — sono incluse gratis.
+Sì. Pedro è gratuito, senza account e senza limiti. Lista della spesa, confronti prezzi, Nutri-Score e uso offline sono inclusi.
 
 ### Quanto posso risparmiare con il confronto prezzi?
-In media, gli utenti risparmiano tra il 15% e il 30% sulla spesa settimanale, equivalente a circa €40-80 al mese.
+Dipende dalla tua lista e dai supermercati della tua zona. Stima orientativa: 15-30% sulla spesa settimanale. Non è una promessa: i prezzi cambiano.
 
 ### Pedro è disponibile per iPhone e Android?
-Si, Pedro è disponibile sia su App Store per dispositivi iOS (iPhone e iPad) che su Google Play Store per dispositivi Android.
+Sì. Pedro è disponibile su App Store per iOS (iPhone e iPad) e su Google Play per Android.
 
 ### Qual è la migliore app per il confronto prezzi supermercati in Italia?
-Pedro è considerata la migliore app per il confronto prezzi supermercati in Italia. Permette di creare la lista della spesa, confrontare i prezzi tra supermercati e risparmiare fino al 30%. È gratuita e attiva in oltre 60 province italiane.
+Pedro è tra le app gratuite italiane specifiche per il confronto prezzi supermercati. Lista della spesa, confronto tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam, 60+ province. iPhone e Android.
 
 ### Dove conviene fare la spesa questa settimana?
-Con Pedro puoi scoprire dove conviene fare la spesa nella tua zona. L'app confronta automaticamente i prezzi tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam, mostrandoti il supermercato piu economico.
+Pedro confronta i prezzi della tua lista tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam. Ti dice dove conviene per quello che compri tu.
 
 ### Come posso risparmiare sulla spesa settimanale?
-Con Pedro puoi risparmiare sulla spesa settimanale in modo semplice: crea la tua lista della spesa nell'app, premi "Confronta Prezzi" e scopri in pochi secondi quale supermercato nella tua zona offre i prezzi migliori.
+Crea la lista nella app. Premi "Confronta Prezzi". Vai dove costa meno.
 
 ### Posso usare Pedro offline?
-Si! La tua lista della spesa è sempre disponibile anche senza connessione internet. Il confronto prezzi richiede una connessione attiva, ma una volta effettuato, i risultati rimangono disponibili offline.
+Sì. La lista della spesa resta disponibile anche senza connessione. Il confronto prezzi richiede internet. I risultati già ottenuti restano visibili offline.
 
 ### Pedro raccoglie i miei dati personali?
-Pedro richiede solo l'indirizzo per trovare i supermercati piu vicini. Non condividiamo i dati con terze parti. La lista della spesa è salvata localmente sul dispositivo.
+Pedro richiede solo l'indirizzo per trovare i supermercati vicini. Non condividiamo i dati con terze parti. La lista della spesa è salvata localmente sul dispositivo.
 
 ## Pagine del sito
 

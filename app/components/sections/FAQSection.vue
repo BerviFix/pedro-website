@@ -2,15 +2,15 @@
 const faqs = [
   {
     question: 'Come funziona il confronto prezzi di Pedro?',
-    answer: 'Pedro confronta i prezzi della tua lista della spesa tra i principali supermercati italiani come Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam. Basta creare la tua lista, premere "Confronta Prezzi" e in pochi secondi vedrai quale supermercato ti offre il prezzo migliore per la tua spesa.'
+    answer: 'Crei la lista della spesa. Premi "Confronta Prezzi". Pedro mostra il supermercato più economico tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam.'
   },
   {
     question: 'Pedro è gratuito?',
-    answer: 'Sì, Pedro è completamente gratuito, senza abbonamenti e senza limiti di utilizzo. Tutte le funzionalità — creazione lista della spesa, confronti prezzi illimitati, Nutri-Score e funzionamento offline — sono incluse senza costi aggiuntivi.'
+    answer: 'Sì. Pedro è gratuito, senza account e senza limiti. Lista della spesa, confronti prezzi, Nutri-Score e uso offline sono inclusi.'
   },
   {
     question: 'Quali supermercati e zone sono supportati?',
-    answer: 'Pedro supporta le principali catene di supermercati in Italia tra cui Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam. Il servizio è attivo in oltre 17 regioni italiane e più di 60 province, tra cui Lombardia, Lazio, Campania, Emilia-Romagna, Veneto, Piemonte, Toscana, Puglia, Sicilia, Sardegna e molte altre. Stiamo continuamente espandendo la copertura.'
+    answer: 'Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam. Attivo in 17 regioni e 60+ province: Lombardia, Lazio, Campania, Emilia-Romagna, Veneto, Piemonte, Toscana, Puglia, Sicilia, Sardegna e altre. Copertura in crescita.'
   },
   {
     question: 'I prezzi sono sempre aggiornati?',
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: 'Quanto posso risparmiare con Pedro?',
-    answer: 'Il risparmio varia in base alla tua lista della spesa e ai supermercati disponibili nella tua zona. In media, i nostri utenti risparmiano tra il 15% e il 30% sulla spesa settimanale, equivalente a circa €40-80 al mese.'
+    answer: 'Dipende dalla tua lista e dai supermercati della tua zona. Stima orientativa: 15-30% sulla spesa settimanale. Non è una promessa: i prezzi cambiano.'
   },
   {
     question: 'Come posso contattare il supporto?',
@@ -42,23 +42,23 @@ const faqs = [
   },
   {
     question: 'Come fare il confronto prezzi tra supermercati?',
-    answer: 'Con Pedro il confronto prezzi supermercati è semplicissimo: scarica l\'app gratis, aggiungi i prodotti alla tua lista della spesa e premi "Confronta Prezzi". In pochi secondi vedrai i prezzi di Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam a confronto, con il calcolo automatico del risparmio per ogni supermercato nella tua zona.'
+    answer: 'Scarica Pedro. Aggiungi i prodotti alla lista. Premi "Confronta Prezzi". Vedi il confronto tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam con il risparmio per supermercato.'
   },
   {
     question: 'Quale app confronta i prezzi dei supermercati in Italia?',
-    answer: 'Pedro è l\'app italiana specializzata nel confronto prezzi supermercati. Confronta i prezzi tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam in oltre 60 province italiane. È gratuita, disponibile per iPhone e Android, e permette di risparmiare fino al 30% sulla spesa settimanale.'
+    answer: 'Pedro. Confronta i prezzi tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam in 60+ province. Gratis, per iPhone e Android.'
   },
   {
     question: 'Qual è la migliore app per il confronto prezzi supermercati in Italia?',
-    answer: 'Pedro è considerata la migliore app per il confronto prezzi supermercati in Italia. Permette di creare la lista della spesa, confrontare i prezzi tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam, e risparmiare fino al 30%. È gratuita, disponibile su iPhone e Android, e attiva in oltre 60 province italiane.'
+    answer: 'Pedro è tra le app gratuite italiane specifiche per il confronto prezzi supermercati. Lista della spesa, confronto tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam, 60+ province. iPhone e Android.'
   },
   {
     question: 'Come posso risparmiare sulla spesa settimanale?',
-    answer: 'Con Pedro puoi risparmiare sulla spesa settimanale in modo semplice: crea la tua lista della spesa nell\'app, premi "Confronta Prezzi" e scopri in pochi secondi quale supermercato nella tua zona offre i prezzi migliori. In media gli utenti risparmiano tra il 15% e il 30%, equivalente a circa €40-80 al mese.'
+    answer: 'Crea la lista nella app. Premi "Confronta Prezzi". Vai dove costa meno.'
   },
   {
     question: 'Dove conviene fare la spesa questa settimana?',
-    answer: 'Con il confronto prezzi supermercati di Pedro puoi scoprire dove conviene fare la spesa nella tua zona. L\'app confronta automaticamente i prezzi della tua lista tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam, mostrandoti il supermercato più economico per i tuoi acquisti specifici.'
+    answer: 'Pedro confronta i prezzi della tua lista tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam. Ti dice dove conviene per quello che compri tu.'
   }
 ]
 

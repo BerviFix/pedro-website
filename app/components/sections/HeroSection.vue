@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const stats = [
   { value: '17+', label: 'Regioni Coperte' },
-  { value: '30%', label: 'Risparmio Medio' },
+  { value: '7', label: 'Supermercati' },
   { value: '1K+', label: 'Download' }
 ]
 </script>
@@ -42,7 +42,7 @@ const stats = [
 
           <!-- Subheading -->
           <p class="text-lg sm:text-xl text-pedro-600 mb-8 max-w-xl mx-auto lg:mx-0 animate-fade-in-up" style="animation-delay: 0.1s">
-            Il <strong class="text-pedro-800">confronto prezzi supermercati</strong> che ti serve. Confronta Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam e risparmia fino al <strong class="text-pedro-800">30%</strong> ogni settimana.
+            Confronta i prezzi tra <strong class="text-pedro-800">Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam</strong>. Paga meno la spesa ogni settimana.
           </p>
 
           <!-- CTA Buttons -->

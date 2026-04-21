@@ -26,7 +26,7 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
-          content: 'Confronto prezzi supermercati in tempo reale con Pedro. Confronta Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam. App gratuita per la lista della spesa che ti fa risparmiare fino al 30%. Scarica gratis su iPhone e Android.'
+          content: 'Confronto prezzi supermercati con Pedro. Confronta Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam. App gratuita per lista della spesa. iPhone e Android.'
         },
         { name: 'keywords', content: 'confronto prezzi supermercati, confronta prezzi supermercati, confronto prezzi spesa, app confronto prezzi, prezzi supermercati a confronto, app per la spesa, app per fare la spesa, migliore app spesa, app risparmio spesa, app spesa gratis, app spesa italia, risparmio spesa settimanale, lista della spesa, app lista della spesa, app per la lista della spesa, lista spesa, risparmio spesa, app spesa, esselunga prezzi, conad prezzi, coop prezzi, carrefour prezzi, lidl prezzi, eurospin prezzi, pam prezzi, spesa online, prezzi supermercati, lista spesa intelligente, confronta prezzi, risparmiare sulla spesa, app spesa intelligente, dove conviene fare la spesa, supermercato piu economico' },
         { name: 'author', content: 'Pedro App' },
@@ -43,8 +43,8 @@ export default defineNuxtConfig({
         // Open Graph / Facebook
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://pedroshoppinglist.app' },
-        { property: 'og:title', content: 'Pedro - Confronto Prezzi Supermercati Gratis | Risparmia fino al 30%' },
-        { property: 'og:description', content: 'Confronto prezzi supermercati: confronta Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam. Risparmia fino al 30% sulla spesa settimanale.' },
+        { property: 'og:title', content: 'Pedro - Confronto Prezzi Supermercati Gratis' },
+        { property: 'og:description', content: 'Confronto prezzi supermercati: Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam. Paga meno la spesa settimanale.' },
         { property: 'og:image', content: 'https://pedroshoppinglist.app/og-image.png' },
         { property: 'og:locale', content: 'it_IT' },
         { property: 'og:site_name', content: 'Pedro' },
@@ -53,7 +53,7 @@ export default defineNuxtConfig({
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:url', content: 'https://pedroshoppinglist.app' },
         { name: 'twitter:title', content: 'Pedro - Confronto Prezzi Supermercati | Lista della Spesa Intelligente' },
-        { name: 'twitter:description', content: 'Confronto prezzi supermercati: confronta Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam. Risparmia fino al 30% sulla spesa.' },
+        { name: 'twitter:description', content: 'Confronto prezzi supermercati: Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam. Spendi meno.' },
         { name: 'twitter:image', content: 'https://pedroshoppinglist.app/og-image.png' },
 
         // App Links
