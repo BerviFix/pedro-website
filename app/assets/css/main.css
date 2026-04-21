@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased text-pedro-900 bg-cream-50;
+  }
+
+  ::selection {
+    @apply bg-accent-500/20 text-accent-900;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 text-base font-semibold text-white
+           bg-gradient-to-r from-accent-500 to-accent-600 rounded-full
+           shadow-accent hover:shadow-accent-lg transition-all duration-300
+           hover:scale-105 active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 text-base font-semibold
+           text-pedro-700 bg-white border-2 border-pedro-200 rounded-full
+           shadow-soft hover:shadow-soft-lg hover:border-pedro-300
+           transition-all duration-300 hover:scale-105 active:scale-95;
+  }
+
+  .btn-app-store {
+    @apply inline-flex items-center gap-3 px-5 py-3 bg-pedro-900 text-white rounded-xl
+           hover:bg-pedro-950 transition-all duration-300 hover:scale-105 shadow-soft;
+  }
+
+  .btn-play-store {
+    @apply inline-flex items-center gap-3 px-5 py-3 bg-pedro-900 text-white rounded-xl
+           hover:bg-pedro-950 transition-all duration-300 hover:scale-105 shadow-soft;
+  }
+
+  .heading-1 {
+    @apply text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight;
+  }
+
+  .heading-2 {
+    @apply text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight;
+  }
+
+  .heading-3 {
+    @apply text-2xl sm:text-3xl font-bold tracking-tight;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-accent-500 to-accent-600 bg-clip-text text-transparent;
+  }
+
+  .text-gradient-gold {
+    @apply bg-gradient-to-r from-gold-500 to-gold-400 bg-clip-text text-transparent;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl p-6 shadow-soft border border-pedro-100
+           hover:shadow-soft-lg transition-all duration-300;
+  }
+
+  .card-elevated {
+    @apply bg-white rounded-3xl p-8 shadow-soft-lg border border-pedro-100;
+  }
+
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-soft;
+  }
+
+  .feature-icon {
+    @apply w-14 h-14 rounded-2xl flex items-center justify-center
+           bg-gradient-to-br from-accent-500 to-accent-600 text-white shadow-accent;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 text-sm font-medium
+           rounded-full bg-pedro-100 text-pedro-700 border border-pedro-200;
+  }
+
+  .badge-premium {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 text-sm font-medium
+           rounded-full bg-gradient-to-r from-gold-500 to-gold-400 text-white;
+  }
+
+  /* Supermarket pills */
+  .supermarket-pill {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white
+           shadow-soft text-sm font-medium border border-pedro-100
+           hover:shadow-soft-lg hover:-translate-y-0.5 transition-all duration-300;
+  }
+}
+
+@layer utilities {
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .animate-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Gradient text animation */
+  .animate-gradient-text {
+    background-size: 200% auto;
+    animation: gradientText 3s ease infinite;
+  }
+
+  @keyframes gradientText {
+    0%, 100% { background-position: 0% center; }
+    50% { background-position: 100% center; }
+  }
+
+  /* Phone mockup styling */
+  .phone-mockup {
+    @apply relative rounded-[3rem] bg-pedro-900 p-3 shadow-2xl;
+  }
+
+  .phone-screen {
+    @apply rounded-[2.5rem] overflow-hidden bg-white;
+  }
+
+  /* Blob animations */
+  .blob {
+    @apply absolute rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse-slow;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-cream-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-pedro-300 rounded-full hover:bg-pedro-400;
+}

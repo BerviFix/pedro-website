@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /_nuxt/
+
+Sitemap: https://pedroshoppinglist.app/sitemap.xml
+
+# LLM SEO
+# llms.txt: https://pedroshoppinglist.app/llms.txt
+# llms-full.txt: https://pedroshoppinglist.app/llms-full.txt

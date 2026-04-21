@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(python3:*)",
+      "Bash(npm ls:*)",
+      "Bash(node:*)",
+      "WebSearch",
+      "WebFetch(domain:uptimerobot.nolt.io)",
+      "WebFetch(domain:uptimerobot.com)",
+      "Bash(sips:*)",
+      "Bash(git init *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)",
+      "Bash(git add *)"
+    ]
+  }
+}

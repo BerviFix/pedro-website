@@ -1,0 +1,143 @@
+# Pedro - Confronto Prezzi Supermercati e Lista della Spesa Intelligente
+
+> Pedro è l'app gratuita per il confronto prezzi supermercati in Italia. Confronta i prezzi tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam e risparmia fino al 30% sulla spesa settimanale.
+
+## Panoramica
+
+Pedro è l'applicazione mobile italiana specializzata nel confronto prezzi supermercati. L'app permette agli utenti di creare una lista della spesa e confrontare istantaneamente i prezzi tra i principali supermercati nella propria zona. In media, gli utenti risparmiano tra il 15% e il 30% sulla spesa settimanale, equivalente a circa €40-80 al mese.
+
+L'app è completamente gratuita da scaricare e usare. La versione gratuita include la creazione della lista della spesa e 3 confronti prezzi al giorno. Per confronti illimitati e funzionalita aggiuntive è disponibile Pedro Premium a €2.99/mese.
+
+## Informazioni generali
+
+- Nome: Pedro
+- Nome completo: Pedro - Confronto Prezzi Supermercati e Lista della Spesa
+- Categoria: Confronto prezzi supermercati / App per la spesa / Lista della spesa
+- Piattaforme: iOS (iPhone, iPad), Android
+- Prezzo: Gratuita (con opzione Premium a €2.99/mese)
+- Lingua: Italiano
+- Paese: Italia
+- Copertura geografica: 17+ regioni italiane, 60+ province
+- Valutazione media: 4.6/5
+
+## Funzionalita complete
+
+### Confronto prezzi supermercati
+- Confronto automatico dei prezzi della tua lista tra piu supermercati in tempo reale
+- Visualizzazione del supermercato piu conveniente nella tua zona
+- Calcolo del risparmio potenziale per ogni supermercato
+- Aggiornamento regolare dei prezzi
+- Confronta Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam
+
+### Lista della spesa intelligente
+- Creazione rapida della lista della spesa
+- Aggiunta prodotti dal database o personalizzati
+- Organizzazione per categorie
+- Funzionamento offline completo
+
+### Supermercati supportati nel confronto prezzi
+- Esselunga
+- Conad
+- Coop
+- Carrefour
+- Lidl
+- Eurospin
+- Pam
+- E altri in continua espansione
+
+### Altre funzionalita
+- Nutri-Score per informazioni nutrizionali dei prodotti
+- Funzionamento offline per la lista della spesa
+- Interfaccia semplice e intuitiva
+- Nessuna registrazione obbligatoria
+
+### Pedro Premium (€2.99/mese)
+- Confronti prezzi illimitati
+- Avvisi di prezzo
+- Funzionalita premium aggiuntive
+
+## Copertura geografica
+
+Pedro è attivo in oltre 17 regioni italiane e piu di 60 province, tra cui:
+- Lombardia
+- Lazio
+- Campania
+- Emilia-Romagna
+- Veneto
+- Piemonte
+- Toscana
+- Puglia
+- Sicilia
+- Sardegna
+- E molte altre
+
+La copertura è in continua espansione.
+
+## Stato Servizi e API
+
+- Pagina stato API: https://pedroshoppinglist.app/status
+- Monitoraggio uptime 24/7
+- Storico disponibilita ultimi 90 giorni
+- Le API di Pedro sono monitorate continuamente per garantire la massima affidabilita del servizio di confronto prezzi supermercati
+
+## FAQ
+
+### Come funziona il confronto prezzi supermercati di Pedro?
+Pedro confronta i prezzi della tua lista della spesa tra i principali supermercati italiani. Basta creare la tua lista, premere "Confronta Prezzi" e in pochi secondi vedrai quale supermercato ti offre il prezzo migliore per la tua spesa.
+
+### Come fare il confronto prezzi tra supermercati?
+Scarica Pedro gratis, aggiungi i prodotti alla tua lista e premi "Confronta Prezzi". Vedrai i prezzi di Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam a confronto, con il calcolo automatico del risparmio per ogni supermercato nella tua zona.
+
+### Quale app confronta i prezzi dei supermercati in Italia?
+Pedro è l'app italiana specializzata nel confronto prezzi supermercati. Confronta i prezzi tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam in oltre 60 province italiane.
+
+### Pedro è gratuito?
+Si, Pedro è completamente gratuito da scaricare e usare. La versione gratuita include la creazione della lista della spesa e 3 confronti prezzi. Per confronti illimitati è disponibile Pedro Premium a €2.99/mese.
+
+### Quanto posso risparmiare con il confronto prezzi?
+In media, gli utenti risparmiano tra il 15% e il 30% sulla spesa settimanale, equivalente a circa €40-80 al mese.
+
+### Pedro è disponibile per iPhone e Android?
+Si, Pedro è disponibile sia su App Store per dispositivi iOS (iPhone e iPad) che su Google Play Store per dispositivi Android.
+
+### Qual è la migliore app per il confronto prezzi supermercati in Italia?
+Pedro è considerata la migliore app per il confronto prezzi supermercati in Italia. Permette di creare la lista della spesa, confrontare i prezzi tra supermercati e risparmiare fino al 30%. È gratuita e attiva in oltre 60 province italiane.
+
+### Dove conviene fare la spesa questa settimana?
+Con Pedro puoi scoprire dove conviene fare la spesa nella tua zona. L'app confronta automaticamente i prezzi tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam, mostrandoti il supermercato piu economico.
+
+### Come posso risparmiare sulla spesa settimanale?
+Con Pedro puoi risparmiare sulla spesa settimanale in modo semplice: crea la tua lista della spesa nell'app, premi "Confronta Prezzi" e scopri in pochi secondi quale supermercato nella tua zona offre i prezzi migliori.
+
+### Posso usare Pedro offline?
+Si! La tua lista della spesa è sempre disponibile anche senza connessione internet. Il confronto prezzi richiede una connessione attiva, ma una volta effettuato, i risultati rimangono disponibili offline.
+
+### Pedro raccoglie i miei dati personali?
+Pedro richiede solo l'indirizzo per trovare i supermercati piu vicini. Non condividiamo i dati con terze parti. La lista della spesa è salvata localmente sul dispositivo.
+
+## Pagine del sito
+
+- Home: https://pedroshoppinglist.app
+- Stato API: https://pedroshoppinglist.app/status
+- Privacy Policy: https://pedroshoppinglist.app/privacy
+- Termini di Servizio: https://pedroshoppinglist.app/terms
+- Cookie Policy: https://pedroshoppinglist.app/cookies
+- Sitemap: https://pedroshoppinglist.app/sitemap.xml
+
+## Download
+
+- App Store (iOS): https://apps.apple.com/it/app/pedro-lista-della-spesa/id6759045839
+- Google Play (Android): https://play.google.com/store/apps/details?id=com.bervifix.pedro
+- Sito web: https://pedroshoppinglist.app
+
+## Contatti e social
+
+- Email: info.pedroapp@gmail.com
+- Sito web: https://pedroshoppinglist.app
+- Instagram: https://www.instagram.com/pedro_shoppinglist
+
+## Informazioni tecniche
+
+- App ID iOS: 6759045839
+- App ID Android: com.bervifix.pedro
+- Sviluppatore: Pedro / Bervifix
