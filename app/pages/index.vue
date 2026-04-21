@@ -36,7 +36,7 @@ useSchemaOrg([
       'worstRating': '1'
     },
     'description': 'Pedro è l\'app gratuita per la lista della spesa e il confronto prezzi tra i principali supermercati italiani (Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin, Pam). Attiva in 17 regioni e 60+ province.',
-    'featureList': 'Lista della spesa intelligente, Confronto prezzi supermercati, Risparmio automatico, Nutri-Score prodotti, Funzionamento offline, App per la spesa gratis, Confronto prezzi tra supermercati italiani, Risparmio spesa settimanale',
+    'featureList': 'Lista della spesa, Confronto prezzi supermercati, Nutri-Score prodotti, Funzionamento offline, Confronto prezzi tra supermercati italiani',
     'screenshot': 'https://pedroshoppinglist.app/og-image.png',
     'softwareVersion': '1.0',
     'downloadUrl': 'https://pedroshoppinglist.app',
@@ -56,7 +56,7 @@ useSchemaOrg([
     'name': 'Pedro',
     'url': 'https://pedroshoppinglist.app',
     'logo': 'https://pedroshoppinglist.app/logo.png',
-    'description': 'Pedro è l\'app italiana per la lista della spesa intelligente che confronta i prezzi tra supermercati e ti aiuta a risparmiare.',
+    'description': 'Pedro è l\'app italiana per la lista della spesa e il confronto prezzi tra i principali supermercati.',
     'sameAs': [
       'https://www.instagram.com/pedro_shoppinglist'
     ],
@@ -78,7 +78,7 @@ useSchemaOrg([
   // WebPage Schema
   {
     '@type': 'WebPage',
-    'name': 'Pedro - App Lista della Spesa Intelligente',
+    'name': 'Pedro - App Lista della Spesa',
     'description': 'Pedro: app gratuita per lista della spesa e confronto prezzi tra i principali supermercati italiani.',
     'url': 'https://pedroshoppinglist.app',
     'inLanguage': 'it-IT',
@@ -374,7 +374,7 @@ useSchemaOrg([
     'numberOfItems': 6,
     'itemListElement': [
       { '@type': 'ListItem', 'position': 1, 'name': 'Confronta i Prezzi', 'description': 'Confronto istantaneo dei prezzi della tua lista tra i principali supermercati nella tua zona.' },
-      { '@type': 'ListItem', 'position': 2, 'name': 'Lista Intelligente', 'description': 'Crea e gestisci la tua lista della spesa con prodotti precaricati e personalizzati.' },
+      { '@type': 'ListItem', 'position': 2, 'name': 'Lista della Spesa', 'description': 'Crea la lista della spesa con prodotti precaricati o personalizzati.' },
       { '@type': 'ListItem', 'position': 3, 'name': 'Supermercati Vicini', 'description': 'Trova automaticamente i supermercati più vicini a te.' },
       { '@type': 'ListItem', 'position': 4, 'name': 'Risparmio Garantito', 'description': 'Vedi quanto spendi in meno scegliendo il supermercato giusto.' },
       { '@type': 'ListItem', 'position': 5, 'name': 'Funziona Offline', 'description': 'Lista sempre disponibile anche senza connessione internet.' },

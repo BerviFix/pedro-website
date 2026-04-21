@@ -15,7 +15,7 @@
 ## Funzionalita chiave
 
 - Confronto prezzi supermercati in tempo reale (Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin, Pam)
-- Creazione lista della spesa intelligente
+- Creazione lista della spesa
 - Calcolo automatico del risparmio per supermercato
 - Nutri-Score prodotti
 - Funzionamento offline

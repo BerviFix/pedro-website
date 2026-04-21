@@ -1,4 +1,4 @@
-# Pedro - Confronto Prezzi Supermercati e Lista della Spesa Intelligente
+# Pedro - Confronto Prezzi Supermercati e Lista della Spesa
 
 > Pedro è l'app gratuita italiana per il confronto prezzi tra supermercati (Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin, Pam) e la lista della spesa.
 
@@ -29,7 +29,7 @@ Gratis, senza account e senza limiti. Include lista della spesa, confronti prezz
 - Aggiornamento regolare dei prezzi
 - Confronta Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam
 
-### Lista della spesa intelligente
+### Lista della spesa
 - Creazione rapida della lista della spesa
 - Aggiunta prodotti dal database o personalizzati
 - Organizzazione per categorie

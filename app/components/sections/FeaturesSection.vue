@@ -8,7 +8,7 @@ const features = [
   },
   {
     icon: 'mdi:format-list-checks',
-    title: 'Lista Intelligente',
+    title: 'Lista della Spesa',
     description: 'Crea la lista della spesa. Scegli dai prodotti precaricati o aggiungi i tuoi.'
   },
   {
