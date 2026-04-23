@@ -10,7 +10,6 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxt/icon',
     '@nuxt/image',
-    '@nuxtjs/sitemap',
     'nuxt-schema-org',
     '@vercel/analytics/nuxt'
   ],
@@ -94,17 +93,6 @@ export default defineNuxtConfig({
     name: 'Pedro - Confronto Prezzi Supermercati e Lista della Spesa'
   },
 
-  sitemap: {
-    strictNuxtContentPaths: true,
-    urls: [
-      { loc: '/', changefreq: 'weekly', priority: 1.0 },
-      { loc: '/status', changefreq: 'daily', priority: 0.6 },
-      { loc: '/privacy', changefreq: 'yearly', priority: 0.3 },
-      { loc: '/terms', changefreq: 'yearly', priority: 0.3 },
-      { loc: '/cookies', changefreq: 'yearly', priority: 0.3 }
-    ]
-  },
-
   schemaOrg: {
     identity: {
       type: 'Organization',
@@ -119,14 +107,11 @@ export default defineNuxtConfig({
     format: ['webp', 'png', 'jpg']
   },
 
-  nitro: {
-    prerender: {
-      crawlLinks: false,
-      routes: ['/', '/status', '/privacy', '/terms', '/cookies', '/sitemap.xml', '/robots.txt']
-    }
-  },
-
   routeRules: {
-    '/sitemap.xml': { prerender: true }
+    '/': { prerender: true },
+    '/status': { prerender: true },
+    '/privacy': { prerender: true },
+    '/terms': { prerender: true },
+    '/cookies': { prerender: true }
   }
 })
