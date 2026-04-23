@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const stats = [
-  { value: '17+', label: 'Regioni Coperte' },
-  { value: '7', label: 'Supermercati' },
-  { value: '1K+', label: 'Download' }
+  { value: '60+', label: 'Catene Supermercati' },
+  { value: '17', label: 'Regioni' },
+  { value: '60+', label: 'Province' }
 ]
 </script>
 
@@ -42,7 +42,7 @@ const stats = [
 
           <!-- Subheading -->
           <p class="text-lg sm:text-xl text-pedro-600 mb-8 max-w-xl mx-auto lg:mx-0 animate-fade-in-up" style="animation-delay: 0.1s">
-            Confronta i prezzi tra <strong class="text-pedro-800">Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam</strong>. Paga meno la spesa ogni settimana.
+            Confronta i prezzi tra <strong class="text-pedro-800">Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin, Pam, Bennet, Famila</strong> e altre 50+ catene italiane. Paga meno la spesa ogni settimana.
           </p>
 
           <!-- CTA Buttons -->

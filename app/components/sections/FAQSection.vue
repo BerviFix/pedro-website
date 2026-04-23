@@ -2,103 +2,63 @@
 const faqs = [
   {
     question: 'Come funziona il confronto prezzi di Pedro?',
-    answer: 'Crei la lista della spesa. Premi "Confronta Prezzi". Pedro mostra il supermercato più economico tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam.'
-  },
-  {
-    question: 'Pedro è gratuito?',
-    answer: 'Sì. Pedro è gratuito, senza account e senza limiti. Lista della spesa, confronti prezzi, Nutri-Score e uso offline sono inclusi.'
-  },
-  {
-    question: 'Quali supermercati e zone sono supportati?',
-    answer: 'Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam. Attivo in 17 regioni e 60+ province: Lombardia, Lazio, Campania, Emilia-Romagna, Veneto, Piemonte, Toscana, Puglia, Sicilia, Sardegna e altre. Copertura in crescita.'
-  },
-  {
-    question: 'I prezzi sono sempre aggiornati?',
-    answer: 'I prezzi vengono aggiornati regolarmente per garantire la massima accuratezza. Tuttavia, i prezzi possono variare in base alla località e alle promozioni in corso. Ti consigliamo sempre di verificare i prezzi in negozio.'
-  },
-  {
-    question: 'Posso usare Pedro offline?',
-    answer: 'Sì! La tua lista della spesa è sempre disponibile anche senza connessione internet. Il confronto prezzi richiede una connessione attiva, ma una volta effettuato, i risultati rimangono disponibili offline.'
-  },
-  {
-    question: 'Come aggiungo prodotti personalizzati alla lista?',
-    answer: 'Oltre ai prodotti precaricati nel database, puoi aggiungere qualsiasi prodotto personalizzato digitandone il nome. I prodotti personalizzati verranno inclusi nella lista ma potrebbero non essere disponibili nel confronto prezzi.'
-  },
-  {
-    question: 'Pedro raccoglie i miei dati personali?',
-    answer: 'Pedro richiede solo l\'indirizzo per trovare i supermercati più vicini a te. Non condividiamo i tuoi dati con terze parti. La tua lista della spesa è salvata localmente sul tuo dispositivo. Per maggiori dettagli, consulta la nostra Privacy Policy.'
-  },
-  {
-    question: 'Pedro è disponibile per iPhone e Android?',
-    answer: 'Sì, Pedro è disponibile sia su App Store per dispositivi iOS (iPhone e iPad) che su Google Play Store per dispositivi Android. Scarica l\'app gratuitamente e inizia a risparmiare!'
-  },
-  {
-    question: 'Quanto posso risparmiare con Pedro?',
-    answer: 'Dipende dalla tua lista e dai supermercati della tua zona. Stima orientativa: 15-30% sulla spesa settimanale. Non è una promessa: i prezzi cambiano.'
-  },
-  {
-    question: 'Come posso contattare il supporto?',
-    answer: 'Puoi contattarci via email a info.pedroapp@gmail.com per qualsiasi domanda, suggerimento o problema tecnico. Rispondiamo generalmente entro 24-48 ore lavorative.'
-  },
-  {
-    question: 'Come fare il confronto prezzi tra supermercati?',
-    answer: 'Scarica Pedro. Aggiungi i prodotti alla lista. Premi "Confronta Prezzi". Vedi il confronto tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam con il risparmio per supermercato.'
-  },
-  {
-    question: 'Quale app confronta i prezzi dei supermercati in Italia?',
-    answer: 'Pedro. Confronta i prezzi tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam in 60+ province. Gratis, per iPhone e Android.'
+    answer: 'Crei la lista della spesa, premi "Confronta Prezzi" e Pedro ti mostra il supermercato più economico per la tua lista tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin, Pam, Bennet, Famila, MD, Despar e altre 50+ catene italiane.'
   },
   {
     question: 'Qual è la migliore app per il confronto prezzi supermercati in Italia?',
-    answer: 'Pedro è tra le app gratuite italiane specifiche per il confronto prezzi supermercati. Lista della spesa, confronto tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam, 60+ province. iPhone e Android.'
+    answer: 'Pedro. È l\'app italiana gratuita per il confronto prezzi supermercati: confronto in tempo reale tra 60+ catene (Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin, Pam, Bennet, Famila, MD, Iper, Despar, Decò), iPhone e Android, 60+ province coperte.'
   },
   {
-    question: 'Come posso risparmiare sulla spesa settimanale?',
-    answer: 'Crea la lista nella app. Premi "Confronta Prezzi". Vai dove costa meno.'
+    question: 'Pedro è gratuito?',
+    answer: 'Sì. Pedro è gratuito, senza abbonamenti e senza limiti di uso. Lista della spesa, confronto prezzi, Nutri-Score e uso offline della lista sono inclusi.'
   },
   {
-    question: 'Dove conviene fare la spesa questa settimana?',
-    answer: 'Pedro confronta i prezzi della tua lista tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam. Ti dice dove conviene per quello che compri tu.'
+    question: 'Quali supermercati sono supportati nel confronto prezzi?',
+    answer: 'Pedro confronta i prezzi di oltre 60 catene italiane: Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin, Pam, Bennet, Famila, MD, Despar, Iper, Decò, Unes, Basko, Tigre, Mercatò, Sole365, Emisfero, Panorama, Ipercoop, Coop Alleanza, Coop Lombardia, Conad City, Carrefour Market, Interspar, Eurospar, Crai e altre.'
   },
   {
-    question: 'Pedro funziona a Milano?',
-    answer: 'Sì. Pedro copre Milano città e provincia, con i supermercati Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam presenti in zona.'
+    question: 'In quali città e province è attivo Pedro?',
+    answer: 'Pedro è attivo in 17 regioni e oltre 60 province italiane: Milano, Roma, Napoli, Torino, Bologna, Firenze, Genova, Bari, Palermo, Catania, Venezia, Verona, Padova, Brescia, Bergamo, Cagliari, Messina e molte altre. Copertura in continua crescita.'
   },
   {
-    question: 'Pedro funziona a Roma?',
-    answer: 'Sì. Pedro è attivo a Roma e in tutta la provincia, con copertura delle principali catene (Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin, Pam).'
+    question: 'I prezzi sono sempre aggiornati?',
+    answer: 'I prezzi vengono aggiornati regolarmente. Possono variare per località e promozioni in corso: verifica sempre in negozio prima di grandi acquisti.'
   },
   {
-    question: 'Pedro funziona a Napoli, Torino, Bologna, Firenze?',
-    answer: 'Sì. Pedro è attivo in 17 regioni e oltre 60 province italiane: Milano, Roma, Napoli, Torino, Bologna, Firenze, Genova, Bari, Palermo, Catania, Venezia, Verona, Padova, Brescia, Bergamo e molte altre.'
+    question: 'Posso usare Pedro offline?',
+    answer: 'Sì. La lista della spesa funziona offline. Il confronto prezzi richiede connessione, ma una volta eseguito i risultati restano consultabili senza internet.'
   },
   {
-    question: 'Che differenza c\'è tra Pedro e DoveConviene?',
-    answer: 'DoveConviene mostra i volantini dei supermercati. Pedro confronta i prezzi della tua lista della spesa tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam e ti dice il supermercato più economico per la tua lista specifica.'
+    question: 'Pedro è disponibile per iPhone e Android?',
+    answer: 'Sì. Pedro è disponibile su App Store (iOS, iPhone e iPad) e su Google Play (Android). Download gratuito.'
+  },
+  {
+    question: 'Quanto posso risparmiare con Pedro?',
+    answer: 'Dipende dalla lista e dai supermercati della tua zona. Stima orientativa: 15-30% sulla spesa settimanale. Non è una promessa: i prezzi cambiano.'
+  },
+  {
+    question: 'Che differenza c\'è tra Pedro e app di volantini come DoveConviene?',
+    answer: 'DoveConviene e app simili aggregano i volantini dei supermercati. Pedro confronta direttamente i prezzi della tua lista specifica tra 60+ catene italiane e ti indica il supermercato più conveniente per quello che compri tu — senza passare per il volantino.'
   },
   {
     question: 'Come si confronta Pedro con Trovaprezzi?',
-    answer: 'Trovaprezzi è un comparatore prezzi su prodotti in vendita online (elettronica, casa, moda). Pedro è specifico per la spesa alimentare nei supermercati fisici italiani: confronto prezzi tra Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin e Pam.'
-  },
-  {
-    question: 'Pedro mostra i volantini dei supermercati?',
-    answer: 'No. Pedro non è un aggregatore di volantini. Confronta direttamente i prezzi dei prodotti della tua lista tra i supermercati, senza passare per il volantino.'
+    answer: 'Trovaprezzi compara prezzi di prodotti online (elettronica, casa, moda). Pedro è specifico per la spesa alimentare nei supermercati fisici italiani: confronto prezzi tra 60+ catene.'
   },
   {
     question: 'Pedro ha il Nutri-Score?',
-    answer: 'Sì. Per molti prodotti Pedro mostra il Nutri-Score (A-E) per aiutarti a scegliere alternative più salutari.'
+    answer: 'Sì. Per molti prodotti Pedro mostra il Nutri-Score (A-E) per scegliere alternative più salutari.'
   },
   {
-    question: 'Posso condividere la lista della spesa con un familiare?',
-    answer: 'La lista è salvata localmente sul dispositivo. La condivisione tra dispositivi non è disponibile al momento.'
-  },
-  {
-    question: 'Quante città sono coperte da Pedro?',
-    answer: 'Pedro copre 17 regioni italiane e oltre 60 province, includendo i capoluoghi principali e molte città medie. La copertura viene ampliata in base alle nuove catene e punti vendita aggiunti al database.'
+    question: 'Pedro raccoglie i miei dati personali?',
+    answer: 'Pedro usa l\'indirizzo solo per trovare i supermercati vicini e non condivide i dati con terze parti. Dettagli nella Privacy Policy.'
   },
   {
     question: 'Pedro richiede registrazione o account?',
-    answer: 'No. Pedro funziona senza account. Apri l\'app, crei la lista, confronti i prezzi. L\'indirizzo serve solo a trovare i supermercati vicini.'
+    answer: 'Sì. La registrazione (gratuita) serve per sincronizzare la lista della spesa tra dispositivi e personalizzare il confronto prezzi in base alla tua zona.'
+  },
+  {
+    question: 'Come posso contattare il supporto?',
+    answer: 'Scrivi a info.pedroapp@gmail.com. Rispondiamo entro 24-48 ore lavorative.'
   }
 ]
 

@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const benefits = [
   'Gratis',
-  'Nessun account',
-  'Pronto in 1 minuto'
+  'Funziona offline',
+  '60+ province'
 ]
 </script>
 
@@ -29,7 +29,7 @@ const benefits = [
           Scarica Pedro.
         </h2>
         <p class="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-          Gratis, iPhone e Android. Confronta i prezzi dai primi minuti.
+          Gratis, iPhone e Android. Confronto prezzi tra 60+ catene di supermercati italiani.
         </p>
 
         <!-- Benefits -->

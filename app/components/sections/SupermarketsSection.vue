@@ -6,8 +6,18 @@ const supermarkets = [
   { name: 'Carrefour', color: '#004E9A', initial: 'CA' },
   { name: 'Lidl', color: '#0050AA', initial: 'LI' },
   { name: 'Eurospin', color: '#FFDD00', initial: 'EU', textDark: true },
-  { name: 'Pam', color: '#E30613', initial: 'PA' }
+  { name: 'Pam', color: '#E30613', initial: 'PA' },
+  { name: 'Bennet', color: '#009640', initial: 'BE' },
+  { name: 'Famila', color: '#C8102E', initial: 'FA' },
+  { name: 'MD', color: '#E2001A', initial: 'MD' },
+  { name: 'Despar', color: '#C8102E', initial: 'DE' },
+  { name: 'Iper', color: '#E30613', initial: 'IP' },
+  { name: 'Decò', color: '#CE1126', initial: 'DC' },
+  { name: 'Unes', color: '#005CA9', initial: 'UN' },
+  { name: 'Basko', color: '#00529C', initial: 'BA' }
 ]
+
+const otherChains = 'Tigre, Mercatò, Sole365, Emisfero, Conad City, Carrefour Market, Carrefour Express, Coop Alleanza, Coop Lombardia, Ipercoop, Spazio Conad, Panorama, Interspar, Eurospar, Crai, Tigotà, Sigma, Prix, Dpiù, Hurrà, InCoop, Pewex, Il Viaggiator Goloso e molte altre.'
 </script>
 
 <template>
@@ -20,12 +30,12 @@ const supermarkets = [
           Confronto prezzi <span class="text-gradient">supermercati</span> italiani
         </h2>
         <p class="text-lg text-gray-600">
-          Confronta i prezzi tra le principali catene italiane. Attivo in oltre <strong>60 province</strong>.
+          Confronto prezzi tra <strong>60+ catene</strong> italiane in <strong>17 regioni</strong> e <strong>60+ province</strong>.
         </p>
       </div>
 
       <!-- Supermarkets Grid -->
-      <div class="flex flex-wrap justify-center gap-4 mb-12">
+      <div class="flex flex-wrap justify-center gap-4 mb-8">
         <div
           v-for="supermarket in supermarkets"
           :key="supermarket.name"
@@ -40,6 +50,11 @@ const supermarkets = [
           <span class="font-medium text-gray-700">{{ supermarket.name }}</span>
         </div>
       </div>
+
+      <!-- Other Chains -->
+      <p class="text-sm text-gray-500 text-center max-w-3xl mx-auto mb-12 leading-relaxed">
+        <span class="font-semibold text-gray-700">+ altre catene:</span> {{ otherChains }}
+      </p>
 
       <!-- Info Cards -->
       <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
