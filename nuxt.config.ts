@@ -121,15 +121,12 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ['/sitemap.xml']
+      crawlLinks: false,
+      routes: ['/', '/status', '/privacy', '/terms', '/cookies', '/sitemap.xml', '/robots.txt']
     }
   },
 
   routeRules: {
-    '/': { prerender: true },
-    '/status': { prerender: true },
-    '/privacy': { prerender: true },
-    '/terms': { prerender: true },
-    '/cookies': { prerender: true }
+    '/sitemap.xml': { prerender: true }
   }
 })
