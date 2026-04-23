@@ -95,7 +95,14 @@ export default defineNuxtConfig({
   },
 
   sitemap: {
-    strictNuxtContentPaths: true
+    strictNuxtContentPaths: true,
+    urls: [
+      { loc: '/', changefreq: 'weekly', priority: 1.0 },
+      { loc: '/status', changefreq: 'daily', priority: 0.6 },
+      { loc: '/privacy', changefreq: 'yearly', priority: 0.3 },
+      { loc: '/terms', changefreq: 'yearly', priority: 0.3 },
+      { loc: '/cookies', changefreq: 'yearly', priority: 0.3 }
+    ]
   },
 
   schemaOrg: {
@@ -120,6 +127,9 @@ export default defineNuxtConfig({
 
   routeRules: {
     '/': { prerender: true },
-    '/status': { prerender: true }
+    '/status': { prerender: true },
+    '/privacy': { prerender: true },
+    '/terms': { prerender: true },
+    '/cookies': { prerender: true }
   }
 })
